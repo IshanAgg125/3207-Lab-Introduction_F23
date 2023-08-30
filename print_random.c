@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-char randchar();
+#include "random.h"
 
 int main() {
 	int a;
@@ -18,7 +17,4 @@ int main() {
 	return(0);
 }
 
-char randchar() {
-	
-}
 
